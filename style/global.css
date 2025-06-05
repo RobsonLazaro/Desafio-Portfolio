@@ -30,3 +30,7 @@
     --text-md: 400 16px/1.4 var(--font-maven);
     --text-sm: 400 14px/1.4 var(--font-maven);
 }
+
+body{
+    font: var(--text-sm);
+}
