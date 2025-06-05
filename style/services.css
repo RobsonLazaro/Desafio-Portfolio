@@ -1,4 +1,21 @@
 #services{
     background: var(--gray-100);
     padding-block:88px 120px;
+    display: flexbox;
+    
+    .cards{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid var(--gray-200);
+        padding: 20px;
+        border-radius: 12px;
+        img{
+            width: 48px ;
+        }
+    }
 }

@@ -12,7 +12,9 @@
     gap: 24px; 
     flex-direction: row;
     flex-wrap: wrap;
-    .card{
+    max-width: 80%;
+    margin: 0 auto;
+    .project-card{
         background-color: var(--gray-300) ;
         border-radius: 12px;
         padding: 12px;

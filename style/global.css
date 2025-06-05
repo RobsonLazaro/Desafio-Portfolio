@@ -64,3 +64,8 @@ a{
         color: inherit;
     }
 }
+
+
+.container{
+    margin-inline: 120px;
+}
