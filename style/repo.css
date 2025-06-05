@@ -1,0 +1,39 @@
+#repo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-inline: 120px;
+    margin-bottom: 144px;
+}
+
+#projetos{
+    display: flex;
+    justify-content: center;
+    gap: 24px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card{
+        background-color: var(--gray-300) ;
+        border-radius: 12px;
+        padding: 12px;
+        width: 306px;
+
+        img{
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        h2{
+            font: var(--title-sm);
+            padding-block: 8px ;
+        }
+
+        .subscription{
+            padding: 4px;
+        }
+    }
+
+    .card:hover{
+        border:1.5px solid var(--gray-400)
+    }
+}
