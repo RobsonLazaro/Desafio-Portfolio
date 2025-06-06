@@ -1,21 +1,26 @@
-#services{
+#services {
     background: var(--gray-100);
-    padding-block:88px 120px;
+    padding-block: 88px 120px;
     display: flexbox;
-    
-    .cards{
+
+    .cards {
         display: flex;
         justify-content: center;
         gap: 24px;
     }
-    .card{
+
+    .card {
         display: flex;
         flex-direction: column;
         border: 2px solid var(--gray-200);
         padding: 20px;
         border-radius: 12px;
-        img{
-            width: 48px ;
+
+        img {
+            width: 48px;
         }
+    }
+    .card:hover{
+        border: 2px solid var(--gray-200);
     }
 }
