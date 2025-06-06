@@ -1,0 +1,57 @@
+#contato {
+    padding: 128px 120px 200px 120px;
+    text-align: center;
+    background-image: url(../assets/image/Background_Contacts.png);
+    background-size: 100vw;
+    display: flex;
+    justify-content: center;
+
+    .conteudo-rede {
+        width: 80%;
+    }
+
+    h2 {
+        font: var(--title-md);
+    }
+
+    h3 {
+        color: var(--color-purple);
+    }
+
+    p {
+        font: var(--text-md);
+        color: var(--gray-500);
+    }
+
+    #texto-contato {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    #redes {
+        padding-top: 48px;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        gap: 16px;
+
+        .rede {
+            text-align: start;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: var(--gray-300);
+            margin-inline: auto;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 1.5px solid var(--gray-300);
+
+        }
+
+        .rede:hover {
+            border: 1.5px solid var(--color-blue);
+            border-radius: 8px;
+        }
+    }
+}
