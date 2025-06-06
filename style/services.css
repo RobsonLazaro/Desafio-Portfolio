@@ -24,7 +24,4 @@
             width: 48px;
         }
     }
-    .card:hover{
-        border: 2px solid var(--gray-200);
-    }
 }

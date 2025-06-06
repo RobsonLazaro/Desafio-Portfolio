@@ -19,7 +19,7 @@
         border-radius: 12px;
         padding: 12px;
         width: 300px;
-
+        border:1.5px solid var(--gray-300);
         img{
             border-radius: 8px;
             width: 100%;
@@ -38,5 +38,5 @@
     .project-card:hover{
         border:1.5px solid var(--gray-400)
     }
-    
+
 }
